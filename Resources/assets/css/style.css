@@ -1,0 +1,13 @@
+.navbar-brand {
+    background-color: aquamarine;
+    color: white;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+
+.col-lg-8 {
+    color: aquamarine;
+}
