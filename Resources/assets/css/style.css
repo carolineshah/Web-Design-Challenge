@@ -1,13 +1,31 @@
 .navbar-brand {
-    background-color: aquamarine;
+    background-color: #015758;
     color: white;
+    padding: 8px;
+}
+.hover-link:hover {
+    color: #D3D3D3;
 }
 
-.navbar-nav {
-    text-align: right;
+.nav-link {
+    color: #272727;
 }
 
+#navbarDropdownMenuLink {
+    color: #272727;
+}
+.navbar {
+    margin: 10px;
+}
 
-.col-lg-8 {
-    color: aquamarine;
+.bg-offwhite {
+    background-color: #FBFBF8;
+}
+
+.bg-grey {
+    background-color: #D3D3D3;
+}
+
+.text-teal {
+    color: #015758;
 }
