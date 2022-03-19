@@ -1,31 +1,84 @@
+/* latitude part of navbar */
 .navbar-brand {
     background-color: #015758;
     color: white;
-    padding: 8px;
+    padding: 10px;
 }
+/* hover over link color */
 .hover-link:hover {
     color: #D3D3D3;
 }
 
+/* text in the navbar menu */
 .nav-link {
     color: #272727;
 }
 
+/* text for the dropdown navbar menu */
 #navbarDropdownMenuLink {
     color: #272727;
 }
+/* overall navbar */
 .navbar {
     margin: 10px;
+    background-color: white;
 }
 
+/* color of the body boxes */
 .bg-offwhite {
-    background-color: #FBFBF8;
+    background-color: white;
 }
 
-.bg-grey {
+/* body container background */
+#bg-grey {
     background-color: #D3D3D3;
-}
+} 
 
+/* header text */
 .text-teal {
     color: #015758;
+    padding-top: 15px;
+}
+
+/* #nav-bar-overall {
+    background-color: white;
+} */
+
+/* trying to figure out how to get navbar to show up small */
+.navbar-toggler-icon {
+    color: black;
+}
+
+/* visualization borders */
+#border-1 {
+    border: 3px solid #015758;
+}
+#border-2 {
+    border: 3px solid #015758;
+}
+#border-3 {
+    border: 3px solid #015758;
+}
+#border-4 {
+    border: 3px solid #015758;
+}
+
+/* comparison page images */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* data page table */
+.data-table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+
+tr, th {
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
