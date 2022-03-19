@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand hover-link" href="index.html">Latitude</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -52,13 +52,10 @@
             <div class="col-lg-8 bg-offwhite">
                 <h1 class="text-teal">Summary: Latitude vs. X</h1>
                 <hr/>
-                <p>
-                    <img height=150px width=150px justify="right" src="Resources/assets/images/Fig1.png">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <p id="main-text">
+                    <img height=300px width=400px justify="right" id="main-img" src="Resources/assets/images/Fig1.png">
+                    This project analyzed how different aspects of weather change as you get closer to the equator. In order to accomplish this, we used the OpenWeatherMap API to collect data and compile data into a dataset from over 500 cities. <br/>
+                    After compiling the dataset, we used Matplotlib to plot different features of weather compared to latitude. The factors we looked at were: maximum temperature, humidity, cloudiness, and wind speed. This site features the source data and the visualizations created as part of the analysis along with some explanations and descriptions of trends seen.
                 </p>
             </div>
             <div class="col-lg-4 bg-offwhite">

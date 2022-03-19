@@ -40,14 +40,6 @@
     padding-top: 15px;
 }
 
-/* #nav-bar-overall {
-    background-color: white;
-} */
-
-/* trying to figure out how to get navbar to show up small */
-.navbar-toggler-icon {
-    color: black;
-}
 
 /* visualization borders */
 #border-1 {
@@ -76,9 +68,60 @@
     border: 0px;
 }
 
+/* indv plot pages */
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+/* home page text to go next to img */
+#main-text {
+    display: inline-flex;
+}
+
+/* data table align center and zebra colored rows */
 tr, th {
     text-align: center;
 }
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+/* change background of navbar when smaller */
+@media (max-width: 1000px) {
+    /* overall navbar */
+    .navbar {
+        margin: 10px;
+        background-color: #015758;
+    }
+    /* navbar links */
+    .nav-link {
+        color: white;
+    }
+    /* dropdown text */
+    #navbarDropdownMenuLink {
+        color: white;
+    }
+
+    /* enables horizontal scroll for the data table */
+    table {
+        display: block;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        margin: 0 auto;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* when page is smaller - have home img take up entire space */
+    #main-text {
+        display: block;
+    }
+    #main-img {
+        width: 100%;
+        height: auto;
+    }
+
 }
